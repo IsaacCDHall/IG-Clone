@@ -1,0 +1,98 @@
+.header {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  background-color: rgb(0, 51, 153);
+  color: white;
+  padding: 10px 10px 137px 10px;
+}
+
+.header a {
+  color: white;
+}
+
+.header button {
+  color: black;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #6698cb;
+}
+
+.header2 a {
+  color: white;
+  padding-right: 20px;
+}
+
+
+.tom {
+  padding: 15px;
+
+}
+
+.tom-list {
+  list-style: none;
+}
+
+.tom img {
+  float: left;
+  padding-right: 25px;
+  height: 180px;
+  width: auto;
+  padding-bottom: 25px;
+}
+
+.contacting-info {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  padding-left: 25px;
+  line-height: 22px;
+}
+
+.contacting h5 {
+  background-color: #6698cb;
+  color: white;
+  font-weight: bold;
+  padding: 3px 3px 3px 10px;
+  margin-top: -2px;
+}
+
+.contacting {
+  border: 2px solid #6698cb;
+  margin-bottom: 30px;
+}
+
+.column1 {
+  width: 40%;
+}
+
+.column2 {
+  width: 60%;
+}
+
+
+
+.myspace-url {
+  border: 1px solid #6698cb;
+  margin-bottom: 25px;
+
+}
+
+.toms-interest {
+  background-color: #6698cb;
+  color: white;
+  padding: 0.003em;
+  padding-left: 25px;
+}
+
+.toms-flex {
+  display: flex;
+  align-content: stretch;
+  border: 2px solid #6698cb;
+}
