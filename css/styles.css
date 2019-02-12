@@ -24,7 +24,7 @@
 
 .header2 a {
   color: white;
-  padding-right: 20px;
+  padding-right: 5px;
 }
 
 
@@ -69,19 +69,29 @@
 }
 
 .column1 {
-  width: 40%;
+  width: 450px;
+  display: flex;
 }
 
 .column2 {
-  width: 60%;
+  width: 500px;
 }
 
-
+.mainPage {
+  display: flex;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .myspace-url {
   border: 1px solid #6698cb;
   margin-bottom: 25px;
 
+}
+.newRow {
+  display: flex;
+  width: 450px;
 }
 
 .toms-interest {
@@ -92,7 +102,44 @@
 }
 
 .toms-flex {
-  display: flex;
-  align-content: stretch;
+  display: inline-flex;
+  align-content: flex-start;
   border: 2px solid #6698cb;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 450px;
+}
+
+.general,
+.general-info,
+.music,
+.music-info {
+  width: 200px;
+}
+
+.newRow2 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tom-is-in {
+  text-align: center;
+  border: 3px solid black;
+  padding: 15px;
+  margin: 45px;
+
+
+
+
 }
