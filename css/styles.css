@@ -1,145 +1,67 @@
-.header {
-  display:flex;
-  flex-direction: row;
-  justify-content:space-between;
-  background-color: rgb(0, 51, 153);
-  color: white;
-  padding: 10px 10px 137px 10px;
+/* #3897f0; */
+.contain {
+  text-align: center;
+  padding:1em 5em 0em 5em;
 }
-
-.header a {
-  color: white;
-}
-
-.header button {
-  color: black;
-}
-
-.header2 {
+.orBox{
   display: flex;
   justify-content: center;
-  color: white;
-  background-color: #6698cb;
-}
-
-.header2 a {
-  color: white;
-  padding-right: 5px;
-}
-
-
-.tom {
-  padding: 15px;
-
-}
-
-.tom-list {
-  list-style: none;
-}
-
-.tom img {
-  float: left;
-  padding-right: 25px;
-  height: 180px;
-  width: auto;
-  padding-bottom: 25px;
-}
-
-.contacting-info {
-  height: 90px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 300px;
-  padding-left: 25px;
-  line-height: 22px;
-}
-
-.contacting h5 {
-  background-color: #6698cb;
-  color: white;
+  color: #efefef
   font-weight: bold;
-  padding: 3px 3px 3px 10px;
-  margin-top: -2px;
 }
 
-.contacting {
-  border: 2px solid #6698cb;
-  margin-bottom: 30px;
-}
+.orBox::after {
+    position: relative;
+    content: "";
+    height: 1px;
+    background-color: darkgrey;
+    width: 100%;
+    margin-left: 10px;
+    top: .45em;
 
-.column1 {
-  width: 450px;
-  display: flex;
-}
+    }
+.orBox::before {
+    position: relative;
+    content: "";
+    height: 1px;
+    background-color: darkgrey;
+    width: 100%;
+    margin-right: 10px;
+    top: .45em;
+    }
 
-.column2 {
-  width: 500px;
+.header{
+  font-size: 300%;
+  font-weight: bold;
+  /* font-style: italic; */
+  font-family: cursive;
 }
-
-.mainPage {
-  display: flex;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.myspace-url {
-  border: 1px solid #6698cb;
-  margin-bottom: 25px;
-
-}
-.newRow {
-  display: flex;
-  width: 450px;
-}
-
-.toms-interest {
-  background-color: #6698cb;
+button{
+  background-color: #3897f0;
   color: white;
-  padding: 0.003em;
-  padding-left: 25px;
+  border-radius: 5px;
+  height: 2.5em;
 }
+.forms{
+  /* display:flex; */
+  height:250px;
+  /* border: solid red 2px; */
 
-.toms-flex {
-  display: inline-flex;
-  align-content: flex-start;
-  border: 2px solid #6698cb;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 450px;
 }
-
-.general,
-.general-info,
-.music,
-.music-info {
-  width: 200px;
-}
-
-.newRow2 {
+form{
   display: flex;
   flex-direction: column;
+  flex-grow: 2;
+}
+input{
+  width: 99%;
+  height: 2.3em;
+  align-items: space-around;
+}
+h4{
+  color:gray;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.tom-is-in {
-  text-align: center;
-  border: 3px solid black;
-  padding: 15px;
-  margin: 45px;
-
-
-
-
+.stuff {
+  color: gray;
 }
