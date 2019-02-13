@@ -43,8 +43,8 @@ button{
 .profilePic{
   border: solid 1px lightgray;
   border-radius: 100%;
-  width:15vh;
-  height:15vh;
+  width:15vw;
+  height:15vw;
   float: left;
   position: absolute;
   left: 50px;
@@ -65,8 +65,8 @@ button{
 }
 
 .proPic {
-  width:293px;
-  height:293px;
+  width:25vw;
+  height:25vw;
   margin: 10px;
 }
 
