@@ -1,0 +1,118 @@
+
+.contain {
+  text-align: center;
+  padding:1em 5em 0em 5em;
+
+}
+
+.header{
+  font-size: 300%;
+  font-weight: bold;
+  /* font-style: italic; */
+  font-family: cursive;
+}
+button{
+  background-color: #3897f0;
+  color: white;
+  border-radius: 6px;
+  height: 2em;
+  width: 7em;
+  font-weight: bold;
+
+}
+.SubButton{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 20px;
+}
+.homeHeader{
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+  height: 2.3em;
+  align-items: center;
+  margin:0px 20px 0px 20px;
+}
+
+
+/* .leftHeader{
+  margin:1em 5em 5em 5em;
+} */
+.profilePic{
+  border: solid 1px lightgray;
+  border-radius: 100%;
+  width:15vh;
+  height:15vh;
+  float: left;
+  position: absolute;
+  left: 50px;
+}
+.contain{
+  border-top: solid 1px lightgrey;
+  padding:2px 16px 16px 16px;
+}
+.mainPage{
+  padding:2px 16px 16px 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.pageName{
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.proPic {
+  width:293px;
+  height:293px;
+  margin: 10px;
+}
+
+.imgBody {
+display: flex;
+flex-flow: column wrap;
+justify-content: space-evenly;
+/* top: 500px; */
+width :882px;
+border: solid 1px red;
+
+}
+
+/* html{
+  width:400px;
+  height:500px;
+  position: fixed;
+  border: solid 1px red;
+  margin: auto;
+  padding:1px 1px 1px 1px;
+} */
+
+/* @media screen and (max-width: 1000px) {
+  .side-bar {
+    display: none;
+  }
+  .spacer {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 614px) {
+    .main-feed {
+      width: auto;
+    }
+    body {
+      margin: 0;
+    }
+    .search-bar {
+      display: none;
+    }
+    .nav-bar {
+      justify-content: space-between;
+    } */
+
+/* .homeHeader:nth-child(1n+2){
+  justify-content: flex-end;
+} */
